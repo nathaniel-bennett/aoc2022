@@ -2,7 +2,7 @@ use std::fs;
 use std::io::{BufRead, BufReader};
 
 fn main() {
-    println!("===Advent of Code--Day 2, Part 1===");
+    println!("===Advent of Code--Day 2, Part 2===");
 
     let input_file = fs::File::open("input.txt").expect("Could not open `input.txt` for reading");
     match count_rps_wins(input_file) {
